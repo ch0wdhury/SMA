@@ -91,7 +91,6 @@ header a {
   from {-webkit-transform:scale(0)} 
   to {-webkit-transform:scale(1)}
 }
-
 @keyframes zoom {
   from {transform:scale(0)} 
   to {transform:scale(1)}
@@ -107,7 +106,6 @@ header a {
   font-weight: bold;
   transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
   color: #bbb;
@@ -118,6 +116,14 @@ header a {
 /* Course Grid Section Starts Here */
 .course_grid {
 	padding: 40px 0;
+}
+.card-custom {
+	transition: .5s ease;
+}
+.card-custom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 .card-custom .card-title {
 	font-size: 14px;
