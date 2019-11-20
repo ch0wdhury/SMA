@@ -141,6 +141,10 @@ header a {
 }
 .card-custom {
 	transition: .5s ease;
+	margin-top: 20px;
+}
+.for-border {
+	border: 2px solid #C4262E;
 }
 .card-custom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
@@ -162,5 +166,10 @@ header a {
 	color: #C4262E;
 	font-size: 30px;
 	padding: 0 5px;
+}
+.card-custom a:focus {
+	outline: none;
+	box-shadow: none;
+	color: grey;
 }
 /* Course Grid Section Ends Here */
