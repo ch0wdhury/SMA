@@ -128,6 +128,12 @@ header a {
   transition: all 0.2s ease-out;
   -webkit-transition: all 0.2s ease-out;
 }
+.dropdown-toggle {
+	transition: .3s ease;
+}
+.dropdown-toggle:hover {
+	opacity: .7;
+}
 /* Header Section Ends Here */
 /* Course Grid Section Starts Here */
 .course_grid {
